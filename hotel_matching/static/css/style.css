@@ -1,0 +1,271 @@
+#wrapper{
+width: 1100px;
+margin: 0 auto;
+}
+#matches{
+width: 67%;
+float: left;
+}
+#matches_found{
+width: 29%;
+float: left;
+background: #CCCCCC;
+padding: 0.7% 2%;
+}
+#matches_header{
+float: left;
+width: 100%;
+}
+#matches #sort{
+float: left;
+width: 7%;
+}
+#matches #sort h3{
+margin: 0;
+}
+#matches #sort ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
+#matches #sort ul li{
+width: 30px;
+height: 30px;
+margin: 5% 0;
+display: block;
+float: left;
+}
+#matches #sort ul li a{
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#matches #hotel_details{
+    width: 90%;
+    float: left;
+    padding-top: 2%;
+    height: 768px;
+    overflow: hidden;
+}
+
+#inline{
+    background: url("../images/fullscreen.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 32px;
+    margin-top: 2px;
+    width: 32px;
+}
+
+div#namepopup{
+    height:20px;
+    background-color:#cccccc;
+    position:absolute;
+    padding:10px;
+    z-index: 1;
+    color: #000000;
+    border-radius: 5px;
+}
+
+div#addpopup{
+    height:20px;
+    background-color:#cccccc;
+    position:absolute;
+    padding:10px;
+    z-index: 1;
+    color: #000000;
+    border-radius: 5px;
+}
+
+#hotel_details ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+#hotel_details ul li{
+position: relative;
+border: 1px solid;
+height: 350px;
+width: 44%;
+float: left;
+margin-left: 3%;
+margin-bottom: 2%;
+background: #FFFFCC;
+padding: 1% 1% 2%;
+}
+#hotel_details ul li .cross{
+cursor: pointer;
+background: url("../images/cross.png");
+width: 25px;
+background-repeat: no-repeat;
+display: block;
+height: 24px;
+float: left;
+margin-left: -22px;
+margin-top: -19px;
+}
+#matches_header #lables{
+float: left;
+margin-left: 9%;
+}
+#matches_header #links{
+    float: right;
+    width: 29%;
+    margin-top: 3%;
+}
+img.arrow{
+float: left;
+} 
+
+#matches_header #lables h3{
+margin: 0;
+}
+
+.box_num {
+    margin: 0;
+    padding: 0;
+}
+
+#matches_header #lables span{}
+#matches_header #links ul{
+margin: 0;
+list-style: none;
+padding: 0;
+}
+#matches_header #links ul li{
+float: left;
+    color: #808080;
+
+}
+#matches_header #links ul li a{
+
+    text-decoration: none;
+}
+#hotel_details .hoteldetail_header{
+float: left;
+}
+#hotel_details .hoteldetail_header .header_labels{float: left;
+width: 65%;}
+#hotel_details .hoteldetail_header .header_labels h4{margin: 0; font-weight: normal;overflow: hidden;
+    width: 11em;
+    text-overflow: ellipsis;
+    white-space: nowrap;}
+#hotel_details .hoteldetail_header .header_labels span{
+    font-size: 12px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 11em;
+}
+#hotel_details .hoteldetail_header .header_labels a{
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 11em;
+    text-decoration: none;
+    text-decoration-color: #3399ff;
+}
+#hotel_details .hoteldetail_header .match_phone{float: left;
+width: 35%;}
+#hotel_details .hoteldetail_header .match_phone a{background: #6BBA70;
+padding: 0 20%;
+    font-size: 25px;
+color: #fff;
+text-decoration: none;
+    margin-bottom: 12%;
+float: left;}
+#hotel_details .hoteldetail_header .match_phone span{font-size: 11px;
+margin-top: 13%;}
+#hotel_details .map_show{float: left;
+width: 100%;
+height: 285px;
+background: #fff;}
+#previous_skip{
+width: 100%;
+float: left;}
+#previous_skip #previous{float: left; text-decoration: none;}
+#previous_skip #skip{float: right; text-decoration: none; color: red;}
+#hotel_details_right .hoteldetail_header{
+float: left;
+}
+#hotel_details_right .hoteldetail_header .header_labels{float: left;
+width: 65%;}
+#hotel_details_right .hoteldetail_header .header_labels h4{margin: 0; font-weight: normal; overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 11em;
+}
+#hotel_details_right .hoteldetail_header .header_labels span{
+    font-size: 12px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 11em;
+}
+#hotel_details_right .hoteldetail_header .header_labels a{
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 11em;
+    text-decoration-color: #3399ff;
+    text-decoration: none;
+}
+#hotel_details_right .hoteldetail_header .match_phone{float: left;
+width: 35%;}
+#hotel_details_right .hoteldetail_header .match_phone a{background: #57a5f5;
+padding: 0 22%;
+color: #fff;
+    font-size: 25px;
+    margin-bottom: 12%;
+text-decoration: none;
+float: left;}
+#hotel_details_right .hoteldetail_header .match_phone span{
+    font-size: 11px;
+    margin-bottom: 6%;
+    margin-top: 6%;
+}
+#hotel_details_right .map_show{float: left;
+width: 100%;
+height: 285px;
+background: #fff;}
+#hotel_details_right .hoteldetail_header .match_phone .match_btn {
+    display: NONE;
+}
+#hotel_details_right{
+width: 90%;
+float: left;
+margin-top: 3%;
+}
+#hotel_details_right ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+#hotel_details_right ul li{
+position: relative;
+border: 1px solid;
+height: 350px;
+width: 100%;
+float: left;
+margin-left: 3%;
+margin-bottom: 4%;
+background: #FFFFFF;
+padding: 2% 2% 2%;
+}
+#hotel_details_right ul li .cross{
+cursor: pointer;
+background: url("../images/cross.png");
+width: 25px;
+background-repeat: no-repeat;
+display: block;
+height: 25px;
+float: left;
+margin-left: -22px;
+margin-top: -19px;
+}
